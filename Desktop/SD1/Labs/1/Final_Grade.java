@@ -1,3 +1,23 @@
+/**
+ *file: Final_Grade.java
+ * author: Timothy Hoang
+ * course: CMPT 220
+ * assignment: Lab 1
+ * due date: January 31, 2017
+ * version: 1.8
+ * 
+ * This file contains the declaration of the 
+ * Final_Grade abstract data type.
+ */
+ 
+/**
+ * Final_Grade
+ * 
+ * This class calculates the final weighted grade
+ * of a student in this class according to
+ * their percentage inputs.
+ */
+
 //Imports the Scanner.
 import java.util.Scanner;
 

@@ -1,3 +1,23 @@
+/**
+ *file: Problem2_6.java
+ * author: Timothy Hoang
+ * course: CMPT 220
+ * assignment: Lab 1
+ * due date: January 31, 2017
+ * version: 1.8
+ * 
+ * This file contains the declaration of the 
+ * Problem2_6 abstract data type.
+ */
+ 
+/**
+ * Problem2_6
+ * 
+ * This class adds the digits of a number
+ * which is input by the user.
+ * ex. 345 = 3 + 4 + 5 = 12
+ */
+
 //Imports the Scanner.
 import java.util.Scanner;
 
@@ -14,13 +34,13 @@ public class Problem2_6{
 	int ones = firstInteger % 10;
 	
 	//Clears the first digit (ones place).
-	secondInteger = firstInteger / 10;
+	int secondInteger = firstInteger / 10;
 	
 	//Calculates the second digit (tens place).
 	int tens = secondInteger % 10;
 	
 	//Clears the second digit (tens place).
-	thirdInteger = secondInteger / 10;
+	int thirdInteger = secondInteger / 10;
 	
 	//Calculates the third digit (hundreds place).
 	int hundreds = thirdInteger % 10;
