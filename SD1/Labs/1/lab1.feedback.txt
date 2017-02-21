@@ -1,0 +1,27 @@
+8 pts
+
+Timothy,
+
+About your programs...
+
+Functionality
+
+- All programs function correctly as required.
+
+
+Style Check
+
+- You used tabs, which is forbidden. -1pt
+
+- There is incorrect indentation. -1pt
+
+
+About your essay:
+
+- Good writing and analysis.
+
+
+
+Peace,
+
+- Dr. Rivas
