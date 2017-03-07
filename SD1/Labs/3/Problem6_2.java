@@ -21,29 +21,29 @@ import java.util.Scanner;
 
 public class Problem6_2{
   public static void main(String[] args) {
-	Scanner input = new Scanner(System.in);
-	
-	//Prompts a number.
-	System.out.print("Enter an integer: ");
+  Scanner input = new Scanner(System.in);
+  
+  //Prompts a number.
+  System.out.print("Enter an integer: ");
     long n = input.nextLong();
-	long answer = sumDigits(n);
-	
-	//Prints the answer.
-	System.out.println("The sum of the digits in your integer is " + answer);
+  long answer = sumDigits(n);
+  
+  //Prints the answer.
+  System.out.println("The sum of the digits in your integer is " + answer);
   }
   
   //Recieves number and runs it through equation.
   public static int sumDigits(long n) {
-	int sum = 0;
-	int m = (int) n;
-	
-	//Loops until all the digits are read.
-	while (m > 0){
-	  int digit = m % 10;
-	  m = m / 10;
-	  sum = sum + digit;
-	}
+  int sum = 0;
+  int m = (int) n;
+  
+  //Loops until all the digits are read.
+  while (m > 0){
+    int digit = m % 10;
+    m = m / 10;
+    sum = sum + digit;
+  }
 
-	return sum;
+  return sum;
   } 
 }

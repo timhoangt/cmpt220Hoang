@@ -18,15 +18,15 @@
 
 public class Problem5_12{
   public static void main(String[] args) {
-	//Initializes the variable.
-	int integer = 1;
-	
-	//Finds the minimum number where n^2  > 12,000.
-	while ((integer * integer) < 12000){
-	  integer ++;
-	}
-	
-	//Prints the answer.
-	System.out.println("The smallest n such that n^2 > 12,000 is " + integer);
+  //Initializes the variable.
+  int integer = 1;
+  
+  //Finds the minimum number where n^2  > 12,000.
+  while ((integer * integer) < 12000){
+    integer ++;
+  }
+  
+  //Prints the answer.
+  System.out.println("The smallest n such that n^2 > 12,000 is " + integer);
   }
 }
