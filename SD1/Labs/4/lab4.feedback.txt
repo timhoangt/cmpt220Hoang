@@ -1,0 +1,22 @@
+10 pts
+
+Tim,
+
+About your programs...
+
+Functionality
+
+- All programs function correctly as required.
+
+
+Style Check
+
+ - keep lines of code no longer than 80 characters!
+
+Please make sure you follow the style guidelines. Penalties will be higher as
+the semester moves forward.
+
+
+Peace,
+
+- Dr. Rivas
