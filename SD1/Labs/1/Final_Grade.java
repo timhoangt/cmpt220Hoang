@@ -23,7 +23,8 @@ import java.util.Scanner;
 
 public class Final_Grade{
   public static void main(String[] args) {
-    //Creates a Scanner.
+  
+  //Creates a Scanner.
   Scanner input = new Scanner(System.in);
   
   //User inputs their grades for each category.
@@ -46,7 +47,7 @@ public class Final_Grade{
   //Calculates the final grade.
   double finalGrade = midtermExamWeighted + finalExamWeighted + projectsWeighted + hwAndLabsWeighted;
     
-    // Displays the result.
-    System.out.println("Your final grade is : " + finalGrade +"%");
+  //Displays the result.
+  System.out.println("Your final grade is : " + finalGrade +"%");
   }
 }

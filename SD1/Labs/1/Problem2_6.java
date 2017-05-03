@@ -23,7 +23,8 @@ import java.util.Scanner;
 
 public class Problem2_6{
   public static void main(String[] args) {
-    //Creates a Scanner.
+  
+  //Creates a Scanner.
   Scanner input = new Scanner(System.in);
   
   //User inputs an Integer between 0 and 1000.
@@ -38,7 +39,7 @@ public class Problem2_6{
   
   //Calculates the second digit (tens place).
   int tens = secondInteger % 10;
-  
+
   //Clears the second digit (tens place).
   int thirdInteger = secondInteger / 10;
   
@@ -48,7 +49,8 @@ public class Problem2_6{
   //Calculates the sum with the previously recieved digits.
   int sum = ones + tens + hundreds;
     
-    // Displays the result.
-    System.out.println("The sum of the digits is " + sum);
+  // Displays the result.
+  System.out.println("The sum of the digits is " + sum);
+  
   }
 }
