@@ -22,37 +22,38 @@
 import java.util.Random;
  
 public class Problem3_4{
-  public static void main(String[] args) {
-  //Creates a random number generator.
-  Random monthNum = new Random();
+  public static void main(String[] args){
   
-  //Generates a number between 1 and 12.
-  int random = monthNum.nextInt(12) + 1;
+    //Creates a random number generator.
+    Random monthNum = new Random();
   
-  //Prints out month name according to random number generated.
-  if (random == 1)
+    //Generates a number between 1 and 12.
+    int random = monthNum.nextInt(12) + 1;
+  
+    //Prints out month name according to random number generated.
+    if (random == 1)
     System.out.println("January");
-  else if (random == 2)
+    else if (random == 2)
     System.out.println("February");
-  else if (random == 3)
+    else if (random == 3)
     System.out.println("March");
-  else if (random == 4)
+    else if (random == 4)
     System.out.println("April");
-  else if (random == 5)
+    else if (random == 5)
     System.out.println("May");
-  else if (random == 6)
+    else if (random == 6)
     System.out.println("June");
-  else if (random == 7)
+    else if (random == 7)
     System.out.println("July");
-  else if (random == 8)
+    else if (random == 8)
     System.out.println("August");
-  else if (random == 9)
+    else if (random == 9)
     System.out.println("September");
-  else if (random == 10)
+    else if (random == 10)
     System.out.println("October");
-  else if (random == 11)
+    else if (random == 11)
     System.out.println("November");
-  else if (random == 12)
+    else if (random == 12)
     System.out.println("December");
   }
 }
