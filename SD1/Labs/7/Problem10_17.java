@@ -35,6 +35,6 @@ public class Problem10_17 {
     i.compareTo(end) <= 0; 
     i = i.add(new BigInteger("1"))) {
       System.out.println(i.multiply(i)); 
-    }		
+    }    
   }
 }
