@@ -24,12 +24,12 @@ public class Problem7_32{
     
     //Creates a scanner.
     Scanner input = new Scanner(System.in);
-  	
+    
     //Initializes the variable to save input.
-  	int inputNum;
+    int inputNum;
 
-  	//Prompts a list from the user.
-  	System.out.println("Enter List: ");
+    //Prompts a list from the user.
+    System.out.println("Enter List: ");
 
     //Sets first inputted integer as the length of the array.
     int listLength = input.nextInt();
@@ -37,11 +37,11 @@ public class Problem7_32{
     //Initializes the array.
     int [] inputList = new int [listLength];
 
-  	//Adds each input to the array.
-  	for(int i=0; i<listLength; i++){
-  	  inputNum = input.nextInt();
-  	  inputList[i] = inputNum;
-  	}
+    //Adds each input to the array.
+    for(int i=0; i<listLength; i++){
+      inputNum = input.nextInt();
+      inputList[i] = inputNum;
+    }
 
     //Calls the partition method.
     partition(inputList);
