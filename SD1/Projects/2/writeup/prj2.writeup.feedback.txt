@@ -1,0 +1,16 @@
+36 pts
+
+The project attempts to created a game called 'Rage Circle'. 
+The idea has good merit. 
+
+However, there are some issues...
+Writeup:
+- There are typos in the document. -1pt
+
+Code:
+- It is not user friendly.  -1pt
+
+
+Overall:
+- Project is not complete. -2pts
+
